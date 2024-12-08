@@ -1,0 +1,36 @@
+	$main-color: #2eb738;
+	$bgc: #f0f0f0;
+	$card-color: #ffffff;
+	$card-bgc: #d8d8d8;
+
+	main {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 30px;
+		margin: 0 auto;
+		padding: 80px 85px 0 85px;
+		max-width: 1280px;
+		max-height: 1372px;
+		background-color: $bgc;
+
+		.card-title {
+			text-align: center;
+			align-content: center;
+			height: 366px;
+			color: $main-color;
+
+			h1 {
+				font-size: 56px;
+			}
+			h2 {
+				font-size: 24px;
+			}
+		}
+
+		.card {
+			height: 366px;
+			background-color: $card-color;
+			box-shadow: 0px 3px 10px #d8d8d8;
+			border-radius: 100px 0px 30px 0px;
+		}
+	}
