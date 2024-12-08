@@ -1,5 +1,5 @@
 <script>
-	import './style/01.scss'
+	import "./style/01.scss";
 </script>
 
 <main>
@@ -15,7 +15,7 @@
 	<div class="card"></div>
 	<div class="card"></div>
 	<div class="card"></div>
-	<footer>
-		<p>Copyright © 2019 HexSchool. All rights reserved.</p>
-	</footer>
 </main>
+<footer>
+	<p>Copyright © 2019 HexSchool. All rights reserved.</p>
+</footer>
