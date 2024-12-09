@@ -4,13 +4,13 @@
 </script>
 
 <main>
-	<div class="card-title">
+	<div class="title">
 		<h1>九九乘法表</h1>
 		<h2>MULTIPLICATION CHART</h2>
 	</div>
 	<div class="card">
+		<p class="card-title">2</p>
 		<div class="card-body">
-			<p class="title">2</p>
 			{#each arr as arr, i}
 				<p>2 X {arr} = {2 * arr}</p>
 			{/each}
