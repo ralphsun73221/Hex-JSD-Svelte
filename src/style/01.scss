@@ -28,7 +28,6 @@ main {
 	}
 
 	.card-bcg {
-		padding: 64px 40px;
 		height: 366px;
 		background-color: $card-color;
 		box-shadow: 0px 3px 10px #d8d8d8;
@@ -39,23 +38,24 @@ main {
 			display: inline-flex;
 			flex-direction: column;
 			flex-wrap: wrap;
-			justify-content: center;
+			justify-content: space-between;
 			align-content: center;
-			width: 256px;
-			height: 240px;
+			padding: 52px 40px;
+			width: 350px;
+			height: 366px;
 
 			.card-title {
+				height: 153px;
 				display: inline;
 				font-size: 128px;
 				text-align: center;
-				line-height: 1;
-				/* padding-right: 33px; */
+				line-height: 1.1;
 			}
 
 			.card-content {
+				margin: 0 15px;
 				font-size: 24px;
 				letter-spacing: 1px;
-				padding: 0 15px;
 			}
 		}
 	}
