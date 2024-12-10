@@ -26,3 +26,4 @@
 - 終於完成了第一個卡片的裝飾
 - 本來的想法是用 `board` 來做，但是沒有辦法只出現上下，所以作罷
 - 還是用純手工來做，之前是我想太多了...
+- 順便用了之前看到的[使用 emoji 來當網站 Favicon](https://css-tricks.com/emoji-as-a-favicon/)
