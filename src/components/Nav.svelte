@@ -3,8 +3,8 @@
 
 <nav>
 	<ul>
-		<li><a href="./src/pages/01.html">九九乘法表</a></li>
-		<li><a href="./src/pages/01.html">時鐘</a></li>
+		<li><a href="/">九九乘法表</a></li>
+		<li><a href="./src/pages/02.html">時鐘</a></li>
 	</ul>
 </nav>
 
