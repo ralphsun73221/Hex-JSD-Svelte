@@ -26,9 +26,6 @@
 - 終於完成了第一個卡片的裝飾
 - 本來的想法是用 `board` 來做，但是沒有辦法只出現上下，所以作罷
 - 還是用純手工來做，之前是我想太多了...
-<<<<<<< HEAD
-- 順便用了之前看到的[使用 emoji 來當網站 Favicon](https://css-tricks.com/emoji-as-a-favicon/)
-=======
 - 順便用了之前看到的[使用 emoji 來當網站 Favicon](https://css-tricks.com/emoji-as-a-favicon/)
 - Main 改成了 Nav，首頁就是九九乘法表
 
@@ -45,4 +42,3 @@
   - 不過後來想想，比較符合 Svelte 的做法應該是寫一個 component，放入 index.html 裡面的內容，然後用這個 component 來處理
 - 後來選擇的處理方式比較土炮一點，就是不同的 html 搭配一個 js，可能之後會再用 SvelteKit 設定 route，但現在就先不花太多時間在這個上面了
 - 主要是當時想的方法行不通，主要是 Svelte 的架構，由於一個 html 一定會使用一個 js 來引入，所以如果有第二個 html 就一定需要一個對應的 js，除非是使用套件或是改用 SvelteKit，不然這應該是目前唯一解
->>>>>>> dev
