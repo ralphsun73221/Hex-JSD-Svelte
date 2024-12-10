@@ -26,3 +26,15 @@
 - 終於完成了第一個卡片的裝飾
 - 本來的想法是用 `board` 來做，但是沒有辦法只出現上下，所以作罷
 - 還是用純手工來做，之前是我想太多了...
+- 順便用了之前看到的[使用 emoji 來當網站 Favicon](https://css-tricks.com/emoji-as-a-favicon/)
+
+#### 關於路由
+- 想把首頁改成完成的列表，所以會處理到路由的東西，所以來記錄一下截止目前為止 Svelte 的路由要如何設定
+- 目前 Svelte 沒有內建路由管理，但是 SvelteKit 裡面有（使用 `+page`)
+- 如果不用 SvelteKit 的話，那就要使用 [svelte-routing](https://github.com/jpcutshall/svelte5-router) 這個套件來處理
+- 當然用純的也可以，只是需要做的前置作業就會比較多一點
+  - 建立要使用的 `.html` 檔案，譬如要連結到 `A.html` 就建立一個對應的，放的位置無所謂，但我自己會放到 pages
+  - 在 `A.html` 裡面加入要使用的 Svelte component
+  - 在 `index.html` 裡面建立 `<a>` 到 `A.html`
+  - main.js 也會需要做對應的修改，比較簡單的方式是將會使用的到的 component 都 import 到這個檔案，然後根據不同的頁面寫不同的參數
+  - 或是用一個簡單的判斷也可以，

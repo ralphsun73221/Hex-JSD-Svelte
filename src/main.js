@@ -1,9 +1,9 @@
 import { mount } from 'svelte'
 import './reset.scss'
-import App from './App.svelte'
+import Chengfabiao from './components/Chengfabiao.svelte'
 
-const app = mount(App, {
-  target: document.getElementById('app'),
+const CHENGFABIAO  = mount(Chengfabiao, {
+  target: document.getElementById('Chengfabiao'),
 })
 
-export default app
+export default Chengfabiao

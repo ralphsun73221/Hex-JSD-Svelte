@@ -1,5 +1,5 @@
 <script lang="ts">
-	import "./style/01.scss";
+	import "../style/01.scss";
 
 	// 定義一串數字陣列
 	let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
