@@ -38,19 +38,26 @@
 				height: 8px;
 				background-image: url("/src/assets/hour-hand.svg");
 				position: absolute;
-				left: 20px;
+				top: 48.6%;
+				left: 49.3%;
 			}
 			
 			.minute {
 				width: 8px;
-				height: 72px;
+				height: 96px;
 				background-image: url("/src/assets/minute-hand.svg");
+				position: absolute;
+				top: 31%;
+				left: 49.2%;
 			}
 			
 			.second {
 				width: 12px;
 				height: 126px;
 				background-image: url("/src/assets/second-hand.svg");
+				position: absolute;
+				top: 50%;
+				left: 48.7%;
 			}
 		}
 	}
