@@ -5,7 +5,9 @@
 <Nav />
 <main>
 	<div class="clock-bg">
-		<div class="clock"></div>
+		<div class="hour"></div>
+		<div class="minute"></div>
+		<div class="second"></div>
 	</div>
 </main>
 
@@ -25,20 +27,30 @@
 		color: $minute;
 
 		.clock-bg {
-			background-image: url("/src/assets/clock-bg.svg");
 			width: 500px;
 			height: 500px;
+			background-image: url("/src/assets/clock-bg.svg");
 			margin: 0 auto;
-			/* align-content: center; */
-			/* background-color: $senderay-color;
-			border-radius: 25%; */
+			position: relative;
 
-			.clock {
-				/* width: 300px;
-				height: 300px;
-				margin: 0 auto;
-				background-color: $main-color;
-				border-radius: 100%; */
+			.hour {
+				width: 72px;
+				height: 8px;
+				background-image: url("/src/assets/hour-hand.svg");
+				position: absolute;
+				left: 20px;
+			}
+			
+			.minute {
+				width: 8px;
+				height: 72px;
+				background-image: url("/src/assets/minute-hand.svg");
+			}
+			
+			.second {
+				width: 12px;
+				height: 126px;
+				background-image: url("/src/assets/second-hand.svg");
 			}
 		}
 	}
